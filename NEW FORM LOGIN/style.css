@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #4d4242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+#user-men {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.welcome-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.dkp-heading {
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+.dtn-container a {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-media-login1 {
+    background-color: #d3a8c8;
+    color: white;
+}
+
+.social-media-login2 {
+    background-color: #429cb2;
+    color: white;
+}
+
+.dtn-container a:hover {
+    opacity: 0.8;
+}
+
+.underline-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.underline {
+    height: 1px;
+    background-color: #ddd;
+    flex: 1;
+}
+
+.or-heading {
+    margin: 0 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+.input-box {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-box:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Forgot Password Link */
+.forget-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.forget-password:hover {
+    text-decoration: underline;
+}
+
+/* Registration */
+.register {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.register-now {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-now:hover {
+    text-decoration: underline;
+}
